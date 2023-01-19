@@ -1,5 +1,8 @@
 {
     "name": "kfoobar/laravel-restful",
+    "description": "Boilerplate for Restful API in Laravel",
+    "keywords": ["laravel", "restful", "api"],
+    "license": "MIT",
     "type": "project",
     "require": {
         "php": "^8.0.2",
