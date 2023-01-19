@@ -1,0 +1,33 @@
+{
+    "name": "kfoobar/laravel-restful",
+    "type": "project",
+    "require": {
+        "php": "^8.0.2",
+        "ext-json": "*",
+        "illuminate/console": "^9.21",
+        "illuminate/support": "^9.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "stubs/app/",
+            "KFoobar\\Restful\\": "src/",
+            "Database\\Factories\\": "database/factories/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Villa",
+            "email": "david@kfoobar.se"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KFoobar\\Restful\\ServiceProvider"
+            ],
+            "aliases": {
+                "Restful": "KFoobar\\Restful\\Facades\\Restful"
+            }
+        }
+    }
+}
