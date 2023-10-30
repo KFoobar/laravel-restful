@@ -19,7 +19,7 @@ return [
     */
 
     'log' => [
-        'enabled' => env('RESTFUL_LOGGING', true),
+        'enabled' => env('RESTFUL_LOGGING', false),
         'except' => [],
     ],
 
