@@ -1,14 +1,19 @@
 {
     "name": "kfoobar/laravel-restful",
     "description": "Boilerplate for Restful API in Laravel",
-    "keywords": ["laravel", "restful", "api"],
+    "keywords": [
+        "laravel",
+        "restful",
+        "api"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.0",
         "ext-json": "*",
-        "illuminate/console": "^9.21",
-        "illuminate/support": "^9.21"
+        "illuminate/config": "^8.0|^9.0|^10.0",
+        "illuminate/console": "^8.0|^9.0|^10.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
